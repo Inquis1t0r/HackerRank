@@ -14,3 +14,6 @@ let arr: [Int] = arrTemp.split(separator: " ").map {
 }
 
 guard arr.count == n else { fatalError("Bad input") }
+for str in arr.reversed() {
+    print(str, terminator: " ")
+}
