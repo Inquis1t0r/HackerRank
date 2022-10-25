@@ -11,7 +11,10 @@ import Foundation
 
 func solve(meal_cost: Double, tip_percent: Int, tax_percent: Int) -> Void {
     // Write your code here
-
+    let tip = Double(tip_percent) * meal_cost / 100
+    let tax = Double(tax_percent) * meal_cost / 100
+    
+    print(Int(tip + tax + meal_cost.rounded()))
 }
 
 guard let meal_cost = Double((readLine()?.trimmingCharacters(in: .whitespacesAndNewlines))!)
