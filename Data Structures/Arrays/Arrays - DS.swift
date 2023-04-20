@@ -9,6 +9,17 @@ import Foundation
 
 func reverseArray(a: [Int]) -> [Int] {
     // Write your code here
+    var myArray = a
+    var startIndex = 0
+    var endIndex = myArray.count - 1
+
+    while startIndex < endIndex {
+        myArray.swapAt(startIndex, endIndex)
+        startIndex += 1
+        endIndex -= 1
+    }
+    
+    return myArray
 }
 
 let stdout = ProcessInfo.processInfo.environment["OUTPUT_PATH"]!
