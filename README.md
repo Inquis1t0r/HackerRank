@@ -2,5 +2,5 @@
 My solution for hackerrank.com problems. 
 
 TODO:
-- [ ] test
+- [ ] 10 Days of Javascript
 - [ ] test2
