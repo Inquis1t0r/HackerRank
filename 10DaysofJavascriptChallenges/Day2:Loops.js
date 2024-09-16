@@ -27,7 +27,7 @@ function readLine() {
  * Print your output using 'console.log()'.
  */
 function vowelsAndConsonants(s) {
-    
+    let result; 
 }
 
 
