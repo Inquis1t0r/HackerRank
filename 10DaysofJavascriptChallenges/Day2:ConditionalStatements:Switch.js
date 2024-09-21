@@ -25,6 +25,7 @@ function readLine() {
 function getLetter(s) {
     let letter;
     // Write your code here
+    //TODO:
     
     return letter;
 }
