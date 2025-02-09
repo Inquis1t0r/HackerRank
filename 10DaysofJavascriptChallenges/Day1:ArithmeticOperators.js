@@ -33,6 +33,7 @@ function readLine() {
 function getArea(length, width) {
     let area;
     // Write your code here
+    area = length * width;
     
     return area;
 }
@@ -48,8 +49,15 @@ function getArea(length, width) {
 function getPerimeter(length, width) {
     let perimeter;
     // Write your code here
-    //TODO:!!!!
-    
+    perimeter = 2 * length + 2 * width;
     return perimeter;
 }
 
+
+function main() {
+    const length = +(readLine());
+    const width = +(readLine());
+    
+    console.log(getArea(length, width));
+    console.log(getPerimeter(length, width));
+}
